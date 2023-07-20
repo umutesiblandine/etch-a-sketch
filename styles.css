@@ -1,0 +1,43 @@
+body {
+	background-color: lightgray;
+}
+#container {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: wrap;
+}
+.grid {
+	display: flex;
+	background-color: black;
+	color: white;
+	flex-grow: 1;
+	
+}
+.inner-div {
+	background-color: white;
+	margin: 1px 0px 0px 1px;
+	flex-grow: 1;
+	flex-shrink: 0;
+	color: red;
+	font-size: 0px;
+}
+.last-line-horizontal {
+	margin-right: 1px;
+}
+.last-line-vertical {
+	margin-bottom: 1px;
+}
+button {
+	background-color: black;
+	color: lime;
+	font-size: 15px;
+	width: 250px;
+	float: left;
+	margin-top: 50px;
+	margin-left: 25px;
+	padding: 10px;
+	line-height: 20px;
+	border-radius: 10px;
+}
